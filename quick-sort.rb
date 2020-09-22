@@ -41,8 +41,8 @@ end
 # while/if start if less that last
 # get the partation index
 # pi = partition(arr, start, last)
-# quickSort(arr, start, pi+1)
-# quickSort(arr, pi, last)
+# quickSort(arr, start, pi-1)
+# quickSort(arr, pi+1, last)
 
 def quick_sort(arr, start, last)
   if start < last
