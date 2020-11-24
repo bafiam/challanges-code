@@ -33,20 +33,20 @@ const run = (animals) => {
   });
   return dict;
 };
-let  animals = [
-  "bird",
-  "ant",
-  "bison",
-  "camel",
-  "duck",
-  "elephant",
-  "bison",
-  "bird",
-  "elephant"
-];
 // let  animals = [
-//  1,2,3,4,4,5,6,6,6,1,1,1
+//   "bird",
+//   "ant",
+//   "bison",
+//   "camel",
+//   "duck",
+//   "elephant",
+//   "bison",
+//   "bird",
+//   "elephant"
 // ];
+let  animals = [
+ 1,2,3,4,4,5,6,6,6,1,1,1
+];
 const res = run(animals)
 console.log(res);
 
