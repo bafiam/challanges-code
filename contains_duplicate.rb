@@ -30,3 +30,4 @@ def contains_duplicate(nums)
 
   false
 end
+p contains_duplicate([1,1,1,3,3,4,3,2,4,2])
